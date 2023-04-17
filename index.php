@@ -14,6 +14,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo $name ?>
+    <form method="GET" action="result.php">
+
+        <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+        <input type="text" name="badword" id="badword" placeholder="Inserisci badword">
+        
+        <button type="submit">Inserisci</button>
+
+    </form>
 </body>
 </html>
